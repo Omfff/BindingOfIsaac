@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eeb9d8695c9f41db8d54a6754b95ad0, type: 3}
+  m_Name: BrotherBobbyFamiliar
+  m_EditorClassIdentifier: 
+  familiarType: BrotherBobby
+  speed: 2.5
+  fireDelay: 2
+  bulletPrefeb: {fileID: 4743772192834179363, guid: f14987fca977843118764a0e28a10328,
+    type: 3}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15073677fcd67420faffd1de84a1c613, type: 3}
+  m_Name: RandomItemSpanwer
+  m_EditorClassIdentifier: 
+  itemToSpawn: {fileID: 5835972668322959867, guid: e9b914d01a231452da683d68316ea091,
+    type: 3}
+  minSpawn: 0
+  maxSpawn: 1
