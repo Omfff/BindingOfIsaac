@@ -40,10 +40,14 @@ public class ItemSpawner : MonoBehaviour
         GameObject i = Instantiate(items[chosenIndex].gameObject, transform.position, Quaternion.identity) as GameObject;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void dropItemAftherEnemyDeath(Vector3 position)
     {
-        
+        int itemIndex = Random.Range(0, items.Count);
+        if(itemIndex < items.Count) {
+            GameObject i = Instantiate(items[itemIndex].gameObject, position, Quaternion.identity) as GameObject;
+        }
+
     }
+   
 }
 

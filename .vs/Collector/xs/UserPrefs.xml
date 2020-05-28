@@ -1,18 +1,7 @@
 ﻿<Properties StartupConfiguration="{715494FF-135C-56CB-B6C7-E4C493D09319}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DungeonGeneration/Door.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DamageTextPopUp.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="17" Column="28" />
-      <File FileName="Assets/Scripts/ItemSpawner.cs" Line="50" Column="1" />
-      <File FileName="Assets/Scripts/ItemSpawner.cs" Line="50" Column="1" />
-      <File FileName="Assets/Scripts/DungeonGeneration/GridController.cs" Line="30" Column="1" />
-      <File FileName="Assets/Scripts/ScriptableObject/Spawners/SpawnerData.cs" Line="12" Column="1" />
-      <File FileName="Assets/ObjectRoomSpawner.cs" Line="24" Column="41" />
-      <File FileName="Assets/Scripts/GameController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DungeonGeneration/Room.cs" Line="39" Column="24" />
-      <File FileName="Assets/Scripts/DungeonGeneration/RoomController.cs" Line="149" Column="18" />
-      <File FileName="Assets/Scripts/DungeonGeneration/DungeonGenerator.cs" Line="29" Column="89" />
-      <File FileName="Assets/Scripts/EnemyController.cs" Line="66" Column="12" />
-      <File FileName="Assets/Scripts/DungeonGeneration/Door.cs" Line="14" Column="10" />
+      <File FileName="Assets/Scripts/DamageTextPopUp.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,9 +9,10 @@
           <Node name="Collector" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="DungeonGeneration" expanded="True">
-                  <Node name="Door.cs" selected="True" />
-                </Node>
+                <Node name="DungeonGeneration" expanded="True" />
+                <Node name="Enemy" expanded="True" />
+                <Node name="Map" expanded="True" />
+                <Node name="DamageTextPopUp.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -32,13 +22,12 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a030d8a8-76e2-4f3c-ba41-4c379a539592" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4dab5e39-8c8f-4803-97d0-af245a524ad5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/oumingfeng/Documents/GameProgramDesign/CourseDemo/Collector/Assets/Scripts/DungeonGeneration/RoomController.cs" relfile="Assets/Scripts/DungeonGeneration/RoomController.cs" line="148" column="1" />
-      <Breakpoint file="/Users/oumingfeng/Documents/GameProgramDesign/CourseDemo/Collector/Assets/Scripts/DungeonGeneration/RoomController.cs" relfile="Assets/Scripts/DungeonGeneration/RoomController.cs" line="145" column="1" />
-      <Breakpoint file="/Users/oumingfeng/Documents/GameProgramDesign/CourseDemo/Collector/Assets/Scripts/DungeonGeneration/RoomController.cs" relfile="Assets/Scripts/DungeonGeneration/RoomController.cs" line="135" column="1" />
-      <Breakpoint file="/Users/oumingfeng/Documents/GameProgramDesign/CourseDemo/Collector/Assets/Scripts/DungeonGeneration/GridController.cs" relfile="Assets/Scripts/DungeonGeneration/GridController.cs" line="36" column="1" />
+      <Breakpoint file="/Users/oumingfeng/Documents/GameProgramDesign/CourseDemo/Collector/Assets/Scripts/Destroyer.cs" relfile="Assets/Scripts/Destroyer.cs" line="29" column="1" />
+      <Breakpoint file="/Users/oumingfeng/Documents/GameProgramDesign/CourseDemo/Collector/Assets/Scripts/Destroyer.cs" relfile="Assets/Scripts/Destroyer.cs" line="24" column="1" />
+      <Breakpoint file="/Users/oumingfeng/Documents/GameProgramDesign/CourseDemo/Collector/Assets/Scripts/Enemy/DashEnemy.cs" relfile="Assets/Scripts/Enemy/DashEnemy.cs" line="34" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

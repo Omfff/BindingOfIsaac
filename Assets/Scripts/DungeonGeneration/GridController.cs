@@ -8,14 +8,14 @@ public class GridController : MonoBehaviour
     public Room room;
 
     [System.Serializable]
-    public struct Grid
+    public struct Grids
     {
         public int columns, rows;
 
         public float vertivalOffset, horizontalOffset;
     };
 
-    public Grid grid;
+    public Grids grid;
 
     public GameObject gridTile;
 
